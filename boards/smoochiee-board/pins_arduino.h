@@ -6,10 +6,10 @@
 #define USB_VID           0x303A
 #define USB_PID           0x1001
 
-// Force Original Bruce Core to load the 3.2" ILI9341 Driver Flag
+// FORCES THE ORIGINAL BRUCE FIRMWARE TO INITIALIZE YOUR 3.2" ILI9341 DRIVER
 #define ILI9341_DRIVER    1
 
-// Map your breadboard parallel tracks securely (PSRAM Safe)
+// Your Breadboard Testing Pin Rows Map (PSRAM-Safe Configuration)
 #define TFT_MOSI          21
 #define TFT_SCLK          12
 #define TFT_MISO          13
@@ -18,10 +18,10 @@
 #define TFT_RST           17
 #define TFT_BL            4
 
-// XPT2046 Screen Touch Select Pin
+// XPT2046 Screen Touch Chip Select Pin
 #define TOUCH_CS          38
 
-// Disable physical external hardware buttons
+// Disables all physical buttons so they do not cause random menu skips
 #define UP_BTN            -1
 #define DW_BTN            -1
 #define SEL_BTN           -1
